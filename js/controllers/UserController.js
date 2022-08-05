@@ -3,6 +3,14 @@ class userController{
         this.addEventBtns();
     }
 
+    addLine(user){
+
+    }
+
+    register(){
+
+    }
+
     addEventBtns(){
         document.querySelector('.add').addEventListener('click', () => {
             document.querySelector('.form-add').style.display = 'flex'
@@ -14,6 +22,10 @@ class userController{
 
         document.querySelectorAll('.close')[1].addEventListener('click', () => {
             document.querySelector('.form-add').style.display = 'none'
+        })
+
+        document.querySelectorAll('.check')[1].addEventListener('click', () => {
+            this.register()
         })
     }
 }
