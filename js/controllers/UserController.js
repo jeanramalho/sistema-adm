@@ -8,7 +8,8 @@ class userController{
     }
 
     register(){
-
+        let form = document.querySelector('.register')
+        
     }
 
     addEventBtns(){
