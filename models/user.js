@@ -12,4 +12,42 @@ class User {
 
         this.date = date.toLocaleDateString('pt-BR')+` `+date.toLocadeTimeString('pt-BR').slice(0,5)
     }
+
+    getId() {
+        return this._id
+    }
+
+    getName() {
+        return this._name
+    }
+
+    getPhoto() {
+        return this._photo
+    }
+
+    getEmail() {
+        return this._email
+    }
+
+    getPhone() {
+        return this._phone
+    }
+
+    getAdmin() {
+        return this._Admin
+    }
+
+    getPassoword(password) {
+
+        if(password === "senha do moderador") {
+            return this._password
+        } else {
+            return "senha do moderador incorreta"
+        }
+        
+    }
+
+    getDate() {
+        return this._date
+    }
 }
