@@ -9,6 +9,11 @@ class userController{
 
     register(){
         let form = document.querySelector('.register')
+        let elements = formEl.elements
+        let user
+        if(this.user == {}) {
+           
+        }
         
     }
 
