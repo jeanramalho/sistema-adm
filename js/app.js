@@ -1,3 +1,1 @@
-
-let UserController = new userController()
-
+let userController = new UserController()

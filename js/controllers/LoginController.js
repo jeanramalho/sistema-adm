@@ -11,10 +11,10 @@ class LoginController{
                 _id:'mestre',
                 _name:'Mestre Overstack',
                 _photo:'img/logo.png',
-                _email:'mestre@overstack.com',
+                _email:'mestre@mestre.com',
                 _phone:'11999991234',
                 _admin:true,
-                _password:[539801954, -1403451557, -1773467883, 757287792]
+                _password:"mestre"
             }
         }
     }
